@@ -59,7 +59,6 @@ Given the required users exist
 When <tuser> has logged in with password and chosen to view the access log
 And She didn't enter the start date
 Then The Search By Date button is disabled
-
 Examples:
     |tuser|
     |svang|
