@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.ChromeDriverManager;
 public abstract class CucumberTest {
 
     static {
-        ChromeDriverManager.getInstance().version("2.46").setup();
+        ChromeDriverManager.getInstance().version("72.0.3626.119").setup();
     }
 
     final static private String   BASE_URL = "http://localhost:8080/iTrust2/";
